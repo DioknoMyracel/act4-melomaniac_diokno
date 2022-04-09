@@ -17,10 +17,9 @@
                 <a class="navbar-brand" href="index.php#page-top"> MELOPHILE STATION </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        
-                    </ul>
                 </div>
+                    
+                
             </div>
         </nav>
         <!-- Header-->
@@ -29,16 +28,6 @@
                 <h1 class="fw-bolder">Welcome to Melophile Station</h1>
                 <p class="lead">Did you know?? MELOPHILE is the term for those who love music? If you are one of them, then this page is for you. Enjoy! :)</p>
                 
-                <li class="nav-item"><a class="nav-link text-light" href="song1.php">Heaven Knows</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="song2.php">I'd Rather</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="song3.php">Driver's License</a></li>
-                         <li class="nav-item"><a class="nav-link text-light" href="song4.php">This City</a></li>
-                          <li class="nav-item"><a class="nav-link text-light" href="song5.php">214</a></li>
-                          <li class="nav-item"><a class="nav-link text-light" href="song6.php">Heaven By Your Side</a></li>
-                
-                
-                
-                
             </div>
         </header>
         <!-- About section-->
@@ -46,9 +35,20 @@
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-12 text-center">
-                        
-                        <?php
-                        ?>
+                    
+                        <ul class="navbar-nav ms-auto">
+                        <li>SONG LIST</li>
+                        <br/>
+                        <li class="nav-item"><a class="nav-link text-dark" href="song1.php">Heaven</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="song2.php">I'd Rather</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="song3.php">Driver's  License</a></li>
+                         <li class="nav-item"><a class="nav-link text-dark" href="song4.php">This City</a></li>
+                          <li class="nav-item"><a class="nav-link text-dark" href="song5.php">214</a></li>
+                          <li class="nav-item"><a class="nav-link text-dark" href="song6.php">Heaven By Your Side</a></li>
+                    </ul>
+                 
+                 
+                       
 
 
                     </div>
@@ -57,6 +57,7 @@
         </section>
 
         <footer class="py-4 bg-danger">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; 2022. Myracel Diokno</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="js/bootstrap.bundle.min.js"></script>
